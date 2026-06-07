@@ -5,187 +5,186 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="icon.png" />
+    <link rel="canonical" href="https://peet.ws/" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&amp;display=swap">
     <title>Peter Pagenstedt</title>
-    <meta name=description content="Peter Pagenstedt's portfolio">
-
-    <style>
-
-        @font-face {
-            font-family: "Roboto";
-            src: local('Pacifico Regular'), url("https://fonts.googleapis.com/css?family=Roboto");
-            font-display: swap;
-        }
-
-.grid-2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr)
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #101214;
-    color: #adadad
-}
-
-h2,
-h1,
-.white {
-    color: #fff
-}
-
-a {
-    color: #adadad;
-    text-decoration: none
-}
-
-.section-1 {
-    padding-top: 40vh;
-    text-align: center
-}
-
-.section-1 p {
-    font-size: 1.1rem;
-    padding-bottom: 10px;
-    margin: 0
-}
-
-body {
-    font-size: 1.1rem;
-    padding-bottom: 10px;
-    margin: 0
-}
-
-.section-1 h2 {
-    font-size: 1.7rem;
-    margin-bottom: 10px
-}
-
-.section-1 a {
-    font-size: 1.5rem;
-    padding: 10px
-}
-
-.section-2 {
-    padding-top: 10vh;
-    width: 80%
-}
-
-.section-2 h2 {
-    font-size: 1.7rem;
-    margin-bottom: 10px
-}
-
-.section-2 p {
-    font-size: 1.1rem;
-    padding-bottom: 10px;
-    margin: 0
-}
-
-.section-2 a {
-    display: block;
-    padding: 5px;
-    font-size: 1.2rem;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-left: 0
-}
-
-.section-2 a:hover {
-    font-size: 1.3rem;
-    color: #fff;
-    cursor: pointer;
-    transition: .2s
-}
-
-.section-1 a:hover {
-    color: #fff;
-    cursor: pointer;
-    transition: .3s
-}
-
-.white:hover {
-    position: relative;
-    padding-left: 10px
-}
-
-@media(max-width:780px) {
-    .grid-2 {
-        grid-template-columns: 1fr
-    }
-
-    .section-1 {
-        padding: 0;
-        padding-top: 5rem
-    }
-
-    .section-2 {
-        padding: 0;
-        padding-left: 1.5rem;
-        padding-top: 2rem
-    }
-}
-    </style>
+    <meta name="description"
+        content="Full-stack developer in Berlin. Web reverse engineering, anti-bots, and web automation.">
+    <meta name="author" content="Peter Pagenstedt">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://peet.ws/">
+    <meta property="og:title" content="Peter Pagenstedt">
+    <meta property="og:description"
+        content="Full-stack developer in Berlin. Web reverse engineering, anti-bots, and web automation.">
+    <meta property="og:image" content="https://peet.ws/icon.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@peetistaken">
+    <meta name="twitter:creator" content="@peetistaken">
+    <meta name="twitter:title" content="Peter Pagenstedt">
+    <meta name="twitter:description"
+        content="Full-stack developer in Berlin. Web reverse engineering, anti-bots, and web automation.">
+    <meta name="twitter:image" content="https://peet.ws/icon.png">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <div class="grid-2">
-        <div class="section-1">
-            <!-- <i class="fas fa-code fa-5x white"></i> -->
-            <svg style="font-size: 5em;"  height="1em" viewBox="0 0 640 512"><path fill="white" d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
-            <h1>Peter Pagenstedt</h1>
-            <p>Berlin, Germany</p>
-            <a href="https://x.com/peetistaken" aria-label="x.com" target="_blank" rel="noopener noreferrer"><svg height="1em" viewBox="0 0 512 512"><path fill="#adadad" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a>
-            <a href="https://github.com/pagpeter" aria-label="github.com" target="_blank" rel="noopener noreferrer"><svg height="1em" viewBox="0 0 496 512"><path fill="#adadad" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
-            <a href="https://www.linkedin.com/in/ppagenstedt" aria-label="linkedin.com" target="_blank" rel="noopener noreferrer"><svg height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#adadad" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
-        </div>
-        <div class="section-2">
-            <h2>About me</h2>
-            <p>Hey! I am Peter, a full-stack developer from Berlin, Germany.</p>
-            <h2>Experience</h2>
-            <p>
-              I have experience building websites, backends, and everything in between since 2020.
-              I also have more niche experience with deobfuscating JavaScript, different browser-fingerprinting techniques, and passive request fingerprinting.
-            </p>
-            <p>My professional experience is the following:</p>
-            <ul>
-                <li><b>07/22-05/25:</b> Freelance software developement on multiple projects, some in the sneaker botting / web automation scene.</li>
-                <li><b>06/25-today</b>: Freelance software developement at Browserbase</li>
-            </ul>
-            <p>I am currently studying computer science at HPI, Uni Potsdam.</p>
+    <div class="page">
+        <div class="wrap">
+            <header class="site-header">
+                <h1>
+                    <a href="/"><span class="muted">~/</span>peter-pagenstedt</a>
+                </h1>
+                <p class="muted tagline">full-stack developer · berlin, germany · <span id="berlin-time" class="tabular">--:--</span></p>
+            </header>
 
-            <h2>Skills</h2>
-            <p>
-                I have worked with a number of different technologies so far. These include:
-            <ul>
-                <li>HTML/JS/CSS</li>
-                <li>Vue, React, NextJS, TailwindCSS</li>
-                <li>MongoDB & Postgres & Supabase</li>
-                <li>NodeJS & TS & NPM</li>
-                <li>Golang</li>
-                <li>Python3</li>
-                <li>Rust</li>
-                <li>PWAs, Electron</li>
-            </ul>
-            </p>
-            <h2>Some of my projects include</h2>
-            <a href="https://github.com/pagpeter/TrackMe" target="_blank" rel="noopener noreferrer">TrackMe: Passive fingerprinting
-                demo, serving 2M requests/month</a> 
-            <a href="https://github.com/pagpeter/deob-transformations" target="_blank" rel="noopener noreferrer">Javascript
-                deobfuscation library</a>  
-            <a href="https://codeberg.org/pagpeter/swcf" target="_blank" rel="noopener noreferrer">SWCF: Cloudflare Bot Protection reverse-engineering
-                </a>  
-            <a href="https://github.com/pagpeter/Challenger" target="_blank" rel="noopener noreferrer">Challenger: Active fingerprinting demo</a> 
-            <a href="https://github.com/pagpeter/matrix.py" target="_blank" rel="noopener noreferrer">Matrix: Matrix.org bot library</a>
-            <a href="https://github.com/pagpeter/WhatsUPnP" target="_blank" rel="noopener noreferrer">WhatsUPnP: Network UPnP scanner</a>
-            <h2>Contact me</h2>
-            <a href="mailto:hi@peet.ws" target="_blank" rel="noopener noreferrer">hi@peet.ws</a>
+            <main>
+                <section class="prose">
+                    <p>
+                        Hey — I'm Peter, a full-stack developer based in Berlin. I've been building
+                        websites, backends, and everything in between since 2020, with niche
+                        experience in JavaScript deobfuscation, browser fingerprinting, and passive
+                        request fingerprinting.
+                    </p>
+                    <p>
+                        I'm currently studying computer science at HPI / Uni Potsdam.
+                    </p>
+                    <p>
+                        I'm often available for freelance work for all things web reverse engineering, antibots and web automation. If that sounds interesting, hit me up at
+                        <a href="mailto:hi@peet.ws">hi@peet.ws</a>.
+                    </p>
+                </section>
+
+                <section class="prose">
+                    <h2>experience</h2>
+                    <ul>
+                        <li>
+                            <span class="muted tabular">2025-06 — now</span>
+                            &nbsp;freelance software development at
+                            <a href="https://browserbase.com" target="_blank" rel="noopener noreferrer">Browserbase</a>
+                            for agent identity, helping agents navigate difficult sites
+                        </li>
+                        <li>
+                            <span class="muted tabular">2022-07 — now</span>
+                            &nbsp;freelance software development across several projects, some in
+                            the sneaker-botting / web-automation space
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="prose">
+                    <h2>skills</h2>
+                    <ul>
+                        <li>Web development <span class="muted">(Vue, React, Next.js, Tailwind)</span></li>
+                        <li>Full stack <span class="muted">(MongoDB, Supabase)</span></li>
+                        <li>Backend <span class="muted">(Golang, Python, Rust)</span></li>
+                        <li>Reverse engineering <span class="muted">(Ghidra, various AST tools)</span></li>
+                    </ul>
+                </section>
+
+                <section class="prose">
+                    <h2>projects</h2>
+                    <ul class="link-list">
+                        <li>
+                            <a href="https://github.com/pagpeter/TrackMe" target="_blank" rel="noopener noreferrer">
+                                TrackMe / tls.peet.ws
+                            </a>
+                            <span class="muted"> — passive fingerprinting demo, ~2M requests/month</span>
+                        </li>
+                        <li>
+                            <a href="https://github.com/pagpeter/deob-transformations" target="_blank" rel="noopener noreferrer">
+                                deob-transformations
+                            </a>
+                            <span class="muted"> — JavaScript deobfuscation library</span>
+                        </li>
+                        <li>
+                            <a href="https://codeberg.org/pagpeter/swcf" target="_blank" rel="noopener noreferrer">
+                                SWCF
+                            </a>
+                            <span class="muted"> — Cloudflare bot-protection reverse-engineering</span>
+                        </li>
+                        <li>
+                            <a href="https://github.com/pagpeter/Challenger" target="_blank" rel="noopener noreferrer">
+                                Challenger
+                            </a>
+                            <span class="muted"> — active fingerprinting demo</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="prose">
+                    <h2>writing</h2>
+                    <ul class="entry-list">
+                        <li>
+                            <a href="https://blog.peet.ws/posts/rise-of-vibe-coded-anti-bot-systems"
+                                target="_blank" rel="noopener noreferrer">
+                                <time class="muted tabular" datetime="2026-06-04">2026-06-04</time>
+                                <span class="entry-title">the rise of vibe-coded anti-bot systems</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="muted footnote">more at <a href="https://blog.peet.ws" target="_blank"
+                            rel="noopener noreferrer">blog.peet.ws</a></p>
+                </section>
+
+                <section class="prose">
+                    <h2>talks</h2>
+                    <ul class="entry-list">
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=3lMu8Q0SqVA" target="_blank"
+                                rel="noopener noreferrer">
+                                <time class="muted tabular" datetime="2026">2026</time>
+                                <span class="entry-title">how Cloudflare can detect you before you even connect</span>
+                                <span class="muted entry-venue">— Prague Crawl 2026</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="prose">
+                    <h2>contact</h2>
+                    <ul>
+                        <li><span class="muted">email&nbsp;&nbsp;&nbsp;</span><a href="mailto:hi@peet.ws">hi@peet.ws</a></li>
+                        <li><span class="muted">discord&nbsp;</span>@.peeet</li>
+                    </ul>
+                </section>
+            </main>
+
+            <footer class="site-footer">
+                <p class="muted">© Peter Pagenstedt</p>
+                <nav>
+                    <a href="https://github.com/pagpeter" target="_blank" rel="noopener noreferrer"
+                        aria-label="github"><span aria-hidden="true">[</span>github<span aria-hidden="true">]</span></a>
+                    <a href="https://x.com/peetistaken" target="_blank" rel="noopener noreferrer"
+                        aria-label="twitter"><span aria-hidden="true">[</span>twitter<span aria-hidden="true">]</span></a>
+                    <a href="https://www.linkedin.com/in/ppagenstedt" target="_blank" rel="noopener noreferrer"
+                        aria-label="linkedin"><span aria-hidden="true">[</span>linkedin<span aria-hidden="true">]</span></a>
+                    <a href="https://blog.peet.ws" target="_blank" rel="noopener noreferrer"
+                        aria-label="blog"><span aria-hidden="true">[</span>blog<span aria-hidden="true">]</span></a>
+                </nav>
+            </footer>
         </div>
     </div>
+    <script>
+        (function () {
+            var el = document.getElementById('berlin-time');
+            if (!el) return;
+            function render() {
+                el.textContent = new Intl.DateTimeFormat('en-GB', {
+                    timeZone: 'Europe/Berlin',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    hour12: false,
+                    timeZoneName: 'short'
+                }).format(new Date()).toLowerCase();
+            }
+            render();
+            setInterval(render, 30000);
+        })();
+    </script>
 </body>
 
 </html>
